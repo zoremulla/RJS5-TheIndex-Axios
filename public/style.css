@@ -41,9 +41,10 @@ sidebar .menu-item {
 }
 
 sidebar .menu-item a {
-  transition: border-left, 0.2s;
+  transition: all 0.2s ease-out;
   padding-left: 15px;
   color: #c8c8c8;
+  text-decoration: none;
 }
 
 sidebar .menu-item a:hover {
@@ -52,4 +53,5 @@ sidebar .menu-item a:hover {
 
 sidebar .menu-item a.active, sidebar .menu-item a:hover {
   border-left: 3px solid #800C0C;
+  text-decoration: underline;
 }

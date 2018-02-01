@@ -3,7 +3,7 @@
 }
 
 body {
-  background: #222222;
+  background: #c8c8c8;
 }
 
 #app {
@@ -11,9 +11,11 @@ body {
 }
 
 sidebar {
+  position: fixed;
   float: left;
   background: #303030;
   height: 100vh;
+  max-width: inherit;
   border-right: 2px solid #555;
 }
 
@@ -51,7 +53,25 @@ sidebar .menu-item a:hover {
   color: white;
 }
 
-sidebar .menu-item a.active, sidebar .menu-item a:hover {
+sidebar .menu-item.active, sidebar .menu-item a:hover {
   border-left: 3px solid #800C0C;
   text-decoration: underline;
+}
+
+.content {
+  padding: 50px;
+}
+
+.card, .card:hover {
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+}
+
+.card:hover {
+  border-color: #800C0C;
+  color: #F00C0C;
+}
+
+.card {
+  margin: 20px;
 }

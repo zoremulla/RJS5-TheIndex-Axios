@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
+
+// Data
 import authors from './data';
+
+// Components
+import Sidebar from './Sidebar';
 
 class App extends Component {
   render() {
@@ -7,14 +12,7 @@ class App extends Component {
       <div id="app" className="container-fluid">
         <div className="row">
           <div className="col-2">
-            <sidebar>
-              <img src="theindex.svg" className="logo" />
-              <section>
-                <h4 className="menu-item active">
-                  <a href="#">AUTHORS</a>
-                </h4>
-              </section>
-            </sidebar>
+            <Sidebar />
           </div>
           <div className="content col-10">
             <div className="authors">

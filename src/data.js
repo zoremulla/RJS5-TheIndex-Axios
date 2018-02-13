@@ -110,7 +110,72 @@ const authors = [
         color: "red"
       },
     ]
-  }
+  },
+  {
+    firstName: "Naguib",
+    lastName: "Mahfouz",
+    imageUrl: "http://speakingtigerbooks.com/wp-content/uploads/2016/06/naguib-mahfouz-5.jpg",
+    books: [
+      {
+        title: "Palace Walk",
+        color: "red"
+      },
+      {
+        title: "Sugar Street",
+        color: "blue"
+      },
+      {
+        title: "Miramar",
+        color: "grey"
+      },
+      {
+        title: "Respected Sir",
+        color: "blue"
+      },
+    ]
+  },
+  {
+    firstName: "Agatha",
+    lastName: "Christie",
+    imageUrl: "http://images.archant.co.uk/polopoly_fs/1.4811429.1481285995!/image/image.jpg_gen/derivatives/landscape_630/image.jpg",
+    books: [
+      {
+        title: "Murder on the Orient Express",
+        color: "black"
+      },
+      {
+        title: "Death on the Nile",
+        color: "green"
+      },
+      {
+        title: "The Mousetrap",
+        color: "white"
+      },
+      {
+        title: "The Man in the Brown Suit",
+        color: "green"
+      },
+      {
+        title: "Curtain: Poirot's Last Case",
+        color: "yellow"
+      },
+    ]
+  },
+  {
+    firstName: "Jordan",
+    lastName: "Peterson",
+    imageUrl: "https://pbs.twimg.com/profile_images/941508335966343169/xsxkTLe0.jpg",
+    books: [
+      {
+        title: "12 Rules for Life: An Antidote to Chaos",
+        color: "white"
+      },
+      {
+        title: "Maps of Meaning: The Architecture of Belief",
+        color: "white"
+      },
+    ]
+  },
 ];
 
 export default authors;

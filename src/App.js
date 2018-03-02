@@ -27,7 +27,7 @@ class App extends Component {
                     </div>
                     <div className="card-body">
                       <h5 className="card-title">
-                        <span>{authors[0].firstName + " " + authors[0].lastName}</span>
+                        <span>{authors[0].first_name + " " + authors[0].last_name}</span>
                       </h5>
                       <small className="card-text">{authors[0].books.length} books</small>
                     </div>
@@ -40,7 +40,7 @@ class App extends Component {
                     </div>
                     <div className="card-body">
                       <h5 className="card-title">
-                        <span>{authors[1].firstName + " " + authors[1].lastName}</span>
+                        <span>{authors[1].first_name + " " + authors[1].last_name}</span>
                       </h5>
                       <small className="card-text">{authors[1].books.length} books</small>
                     </div>
@@ -53,7 +53,7 @@ class App extends Component {
                     </div>
                     <div className="card-body">
                       <h5 className="card-title">
-                        <span>{authors[2].firstName + " " + authors[2].lastName}</span>
+                        <span>{authors[2].first_name + " " + authors[2].last_name}</span>
                       </h5>
                       <small className="card-text">{authors[2].books.length} books</small>
                     </div>
@@ -66,7 +66,7 @@ class App extends Component {
                     </div>
                     <div className="card-body">
                       <h5 className="card-title">
-                        <span>{authors[3].firstName + " " + authors[3].lastName}</span>
+                        <span>{authors[3].first_name + " " + authors[3].last_name}</span>
                       </h5>
                       <small className="card-text">{authors[3].books.length} books</small>
                     </div>

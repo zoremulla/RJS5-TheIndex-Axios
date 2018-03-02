@@ -112,8 +112,8 @@ const authors = [
     ]
   },
   {
-    firstName: "Naguib",
-    lastName: "Mahfouz",
+    first_name: "Naguib",
+    last_name: "Mahfouz",
     imageUrl: "http://speakingtigerbooks.com/wp-content/uploads/2016/06/naguib-mahfouz-5.jpg",
     books: [
       {
@@ -135,8 +135,8 @@ const authors = [
     ]
   },
   {
-    firstName: "Agatha",
-    lastName: "Christie",
+    first_name: "Agatha",
+    last_name: "Christie",
     imageUrl: "http://images.archant.co.uk/polopoly_fs/1.4811429.1481285995!/image/image.jpg_gen/derivatives/landscape_630/image.jpg",
     books: [
       {
@@ -162,8 +162,8 @@ const authors = [
     ]
   },
   {
-    firstName: "Jordan",
-    lastName: "Peterson",
+    first_name: "Jordan",
+    last_name: "Peterson",
     imageUrl: "https://pbs.twimg.com/profile_images/941508335966343169/xsxkTLe0.jpg",
     books: [
       {

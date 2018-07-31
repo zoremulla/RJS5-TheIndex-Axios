@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 // Data
-import authors from './data';
+import authors from "./data";
 
 // Components
-import Sidebar from './Sidebar';
-import AuthorsList from './AuthorsList';
+import Sidebar from "./Sidebar";
+import AuthorsList from "./AuthorsList";
 
 class App extends Component {
   render() {
@@ -16,7 +16,7 @@ class App extends Component {
             <Sidebar />
           </div>
           <div className="content col-10">
-            <AuthorsList authors={authors}/>
+            <AuthorsList authors={authors} />
           </div>
         </div>
       </div>

@@ -1,21 +1,21 @@
-import React from 'react';
+import React, { Component } from "react";
 
-import AuthorCard from './AuthorCard';
+// Components
+import AuthorCard from "./AuthorCard";
 
-function AuthorsList(props) {
+class AuthorsList extends Component {
+  render() {
+    const authorCards = this.props.authors.map(author => (
+      <AuthorCard key={author.first_name + author.last_name} {...author} />
+    ));
 
-  const authors = props.authors.map(author => (
-    <AuthorCard key={author.first_name + author.last_name} {...author} />
-  ));
-
-  return (
-    <div className="authors">
-      <h3>Authors</h3>
-      <div className="row">
-        {authors}
+    return (
+      <div className="authors">
+        <h3>Authors</h3>
+        <div className="row">{authorCards}</div>
       </div>
-    </div>
-  );
+    );
+  }
 }
 
 export default AuthorsList;

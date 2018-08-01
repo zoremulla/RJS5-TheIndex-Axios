@@ -77,10 +77,19 @@ body {
 .card:hover {
   border-color: #800c0c;
   color: #f00c0c;
+  cursor: pointer;
 }
 
 .card {
   margin: 20px;
+}
+
+.author img {
+  height: 300px;
+}
+
+.author .btn {
+  border-color: black;
 }
 
 .spinner {

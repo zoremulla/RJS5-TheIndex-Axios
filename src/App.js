@@ -72,7 +72,7 @@ class App extends Component {
     this.setState({ filteredAuthors: filteredAuthors });
   }
 
-  getView() {
+  getContentView() {
     if (this.state.loading) {
       return <Loading />;
     } else if (this.state.currentAuthor.id) {
@@ -95,7 +95,7 @@ class App extends Component {
           <div className="col-2">
             <Sidebar unselectAuthor={this.unselectAuthor} />
           </div>
-          <div className="content col-10">{this.getView()}</div>
+          <div className="content col-10">{this.getContentView()}</div>
         </div>
       </div>
     );

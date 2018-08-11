@@ -3,7 +3,9 @@ import React, { Component } from "react";
 class BookRow extends Component {
   render() {
     const book = this.props.book;
-    const authors = book.authors.map(author => author.name).join(", ");
+    const authors = book.authors.map(author => (
+      <div key={author.name}>{author.name}</div>
+    ));
     return (
       <tr>
         <td>{book.title}</td>

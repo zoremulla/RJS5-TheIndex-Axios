@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import axios from "axios";
 
+import authors from "./data.js";
+
 // Components
 import Sidebar from "./Sidebar";
 import SearchBar from "./SearchBar";

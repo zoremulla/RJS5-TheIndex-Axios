@@ -40,15 +40,14 @@ class App extends Component {
   getContentView() {
     if (this.state.currentAuthor.first_name) {
       return <AuthorDetail author={this.state.currentAuthor} />;
-    } else if (this.state.filteredAuthors[0]) {
+    } else {
       return (
         <AuthorsList
           authors={this.state.filteredAuthors}
           selectAuthor={this.selectAuthor}
+          filterAuthors={this.filterAuthors}
         />
       );
-    } else {
-      return <AuthorsList authors={authors} selectAuthor={this.selectAuthor} />;
     }
   }
 

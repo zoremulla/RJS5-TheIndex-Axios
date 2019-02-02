@@ -4,10 +4,7 @@ import BookRow from "./BookRow";
 function AuthorDetail(props) {
   const author = props.author;
   const authorName = `${author.first_name} ${author.last_name}`;
-
-  const books = author.books.map(book => (
-    <BookRow book={book} key={book.title} author={author} />
-  ));
+  const books = author.books.map(book => <BookRow key={book.id} book={book} />);
 
   return (
     <div className="author col-xs-10">

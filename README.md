@@ -31,12 +31,11 @@ We've created a fancy API server that can be accessed at `https://the-index-api.
 1. Add an empty `authors` array to your state. 
 2. Send it to `AuthorList` as a prop. Everything should disappear from the page!
 3. Import `axios` into `App.js`.
-4. Before moving to the next step open Postman and try making a `get` request to this URL: `https://the-index-api.herokuapp.com/api/authors/` and take a look at the data being fetched.
-5. Use `axios` to make a `get` request from `https://the-index-api.herokuapp.com/api/authors/`. This request should happen **inside** `componentDidMount`.  
+4. Use `axios` to make a `get` request from `https://the-index-api.herokuapp.com/api/authors/`. This request should happen **inside** `componentDidMount`.  
 (Make sure you're catching any errors!)
-6. After *a-wait*ing for the request to finish, assign the array of data returned by the request to the `state.authors`.  
+5. After *a-wait*ing for the request to finish, assign the array of data returned by the request to the `state.authors`.  
 When you refresh your application, you should see a momentary pause while the data is being fetched then you should find some new authors in your application!
-7. You can now delete the data import at the top of the file!  
+6. You can now delete the data import at the top of the file!  
 In fact, go ahead and delete the file `data.js` entirely. It's useless to us now. Our data is coming from the internet! Wooooow!
 
 
@@ -71,7 +70,6 @@ You've probably noticed that the `/api/authors/` endpoint returns an array of au
 ```
 
 The `books` array **only** contains the `id`s of the books, not the books themselves.  
-But what does the `/api/authors/<author_id>/` endpoint return? Try it out using Postman with different IDs and see what you get.
 
 You can use this new endpoint to fetch a single author:
 
